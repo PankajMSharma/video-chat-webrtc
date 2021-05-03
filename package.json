@@ -1,0 +1,34 @@
+{
+  "name": "video-chat-webrtc",
+  "version": "1.0.0",
+  "description": "Video chat based on WebRTC",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "debug": "nodemon server.js",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PankajMSharma/video-chat-webrtc.git"
+  },
+  "keywords": [
+    "video-chat",
+    "chat",
+    "node.js",
+    "socket.io",
+    "webrtc"
+  ],
+  "author": "Pankaj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PankajMSharma/video-chat-webrtc/issues"
+  },
+  "homepage": "https://github.com/PankajMSharma/video-chat-webrtc#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "uuid": "^8.3.2"
+  }
+}
