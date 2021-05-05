@@ -18,6 +18,9 @@
             object-fit: cover;
         }
     </style>
+    <!-- peerjs should be before other scripts -->
+    <!-- Peerjs helps to connect different peers and gives different id for each peer -->
+    <script defer src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
     <script defer src="/socket.io/socket.io.js"></script>
     <script>
         // get roomId passed from server
